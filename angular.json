@@ -104,6 +104,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "AngularListProduct"
+    }
+  },
+  "defaultProject": "AngularListProduct",
+  "cli": {
+    "analytics": false
+  }
 }
