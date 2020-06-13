@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angularlistproduct": {
+    "angular-list-product": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -40,7 +40,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AngularListProduct",
+            "outputPath": "dist/angular-list-product",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -89,24 +89,24 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AngularListProduct:build"
+            "browserTarget": "angular-list-product:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AngularListProduct:build:production"
+              "browserTarget": "angular-list-product:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AngularListProduct:build"
+            "browserTarget": "angular-list-product:build"
           }
         }
       }
     }
   },
-  "defaultProject": "AngularListProduct",
+  "defaultProject": "angular-list-product",
   "cli": {
     "analytics": false
   }
