@@ -8,3 +8,6 @@ Curso - Desenvolvimento SPA com Angular - Disponibilizado por (https://desenvolv
 
 ### Backend Fake
 * Json Server v0.16.1
+
+### Util
+* npm-check-updates
