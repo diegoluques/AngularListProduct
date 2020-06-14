@@ -1,3 +1,4 @@
+import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
 import { Routes } from '@angular/router';
 import { SobreComponent } from './institucional/sobre/sobre.component';
 import { ContatoComponent } from './institucional/contato/contato.component';
@@ -8,7 +9,7 @@ export const rootRouterConfig: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', component: HomeComponent },
     { path: 'contato', component: ContatoComponent },
-    { path: 'produtos', component: ContatoComponent },
+    { path: 'produtos', component: ListaProdutoComponent },
     { path: 'sobre', component: SobreComponent },
     { path: 'feature-data-binding', component: DataBindingComponent },
 ];
