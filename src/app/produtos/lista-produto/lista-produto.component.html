@@ -4,13 +4,13 @@
         <div *ngFor="let produto of produtos" class="col-md-4 ">
             <div class="card text-center">
                 <a class="text-decoration-none" [routerLink]="['/produto-detalhe', produto.id]">
-                    <img src="assets/images/{{produto.imagem}}" alt="multiplataforma" width="auto" height="150">
+                    <img src="assets/images/{{produto.imagem}}" width="auto" height="150">
                 </a>
                 <div class="card-body">
-                    <h4 class="card-title">{{produto.nome}}</h4>
+                    <h4 class="card-title">{{produto.nome | titlecase}}</h4>
                     <p class="card-text">por apenas</p>
                     <div>
-                        <h4>R$ {{produto.valor}}</h4>
+                        <h4>{{produto.valor | currency :'BRL':'symbol':'1.2-2':'pt'}}</h4>
                     </div>
                 </div>
                 <div class="card-footer text-white">
