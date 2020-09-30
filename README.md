@@ -15,7 +15,7 @@
 ## <p id='architecture'>📚 Lista de Produtos </p>
 Curso desenvolvimento SPA com Angular disponibilizado por (https://desenvolvedor.io)
 
-## <p id='themes'> ⚙ Temas abordados </p> 
+## <p id='themes'>📝 Temas abordados </p> 
 01. Introdução.
 02. Um novo Angular.
 03. Setup do ambiente.
@@ -55,11 +55,11 @@ $ npm start
 
 -  [json-server](https://www.npmjs.com/package/json-server)
 
-## <p id='updateVersions'>💻 Atualizar versões </p>
+## <p id='updateVersions'>🔧 Atualizar versões </p>
 
 -  [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)
 
-## <p id='images'>💻 Imagens </p>
+## <p id='images'>📷 Imagens </p>
 
 ### Home
 ![image](https://user-images.githubusercontent.com/55838972/84600768-c63db580-ae49-11ea-900c-8d35ab6d8d0d.png)
