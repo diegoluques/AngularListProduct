@@ -27,14 +27,14 @@ Curso desenvolvimento SPA com Angular disponibilizado por (https://desenvolvedor
 09. Consumindo dados do back-end.
 10. Conhecimentos Essenciais.
 
-## <p id='tecnologies'>💻 Tecnologia </p>
+## <p id='tecnologies'>🛠 Tecnologia </p>
 Este projeto foi desenvolvido com a seguinte tecnologia:
 
 -  [Angular](https://angular.io/)
 -  [Bootstrap](https://getbootstrap.com/) v4.5.0
 -  [Bootstrap Icons](https://icons.getbootstrap.com/) v1.0.0-alpha4
 
-## <p id='howToUse'>💻 Como usar </p>
+## <p id='howToUse'>ℹ️ Como usar </p>
 Para clonar e executar este aplicativo, na linha de comando:
 
 ```bash
@@ -51,7 +51,7 @@ $ npm i
 $ npm start
 ```
 
-## <p id='backend'>💻 Backend Fake </p>
+## <p id='backend'>🎲 Backend Fake </p>
 
 -  [json-server](https://www.npmjs.com/package/json-server)
 
